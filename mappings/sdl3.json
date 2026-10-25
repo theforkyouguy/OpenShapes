@@ -1,0 +1,57 @@
+{
+  "schema": "OpenShapes controller glyph lookup, not an SDL mapping database",
+  "buttons": {
+    "SDL_GAMEPAD_BUTTON_SOUTH": "fork",
+    "SDL_GAMEPAD_BUTTON_EAST": "halo",
+    "SDL_GAMEPAD_BUTTON_WEST": "gate",
+    "SDL_GAMEPAD_BUTTON_NORTH": "peak",
+    "SDL_GAMEPAD_BUTTON_BACK": "select",
+    "SDL_GAMEPAD_BUTTON_GUIDE": "home",
+    "SDL_GAMEPAD_BUTTON_START": "start",
+    "SDL_GAMEPAD_BUTTON_LEFT_STICK": "l3",
+    "SDL_GAMEPAD_BUTTON_RIGHT_STICK": "r3",
+    "SDL_GAMEPAD_BUTTON_LEFT_SHOULDER": "l1",
+    "SDL_GAMEPAD_BUTTON_RIGHT_SHOULDER": "r1",
+    "SDL_GAMEPAD_BUTTON_DPAD_UP": "dpad-up",
+    "SDL_GAMEPAD_BUTTON_DPAD_RIGHT": "dpad-right",
+    "SDL_GAMEPAD_BUTTON_DPAD_DOWN": "dpad-down",
+    "SDL_GAMEPAD_BUTTON_DPAD_LEFT": "dpad-left",
+    "SDL_GAMEPAD_BUTTON_RIGHT_PADDLE1": "r4",
+    "SDL_GAMEPAD_BUTTON_RIGHT_PADDLE2": "r5",
+    "SDL_GAMEPAD_BUTTON_LEFT_PADDLE1": "l4",
+    "SDL_GAMEPAD_BUTTON_LEFT_PADDLE2": "l5",
+    "SDL_GAMEPAD_BUTTON_TOUCHPAD": "touchpad",
+    "SDL_GAMEPAD_BUTTON_MISC1": "quick-menu",
+    "SDL_GAMEPAD_BUTTON_MISC2": "misc2",
+    "SDL_GAMEPAD_BUTTON_MISC3": "misc3",
+    "SDL_GAMEPAD_BUTTON_MISC4": "misc4",
+    "SDL_GAMEPAD_BUTTON_MISC5": "misc5",
+    "SDL_GAMEPAD_BUTTON_MISC6": "misc6"
+  },
+  "axes": {
+    "SDL_GAMEPAD_AXIS_LEFTX": {
+      "negative": "stick-left-left",
+      "positive": "stick-left-right"
+    },
+    "SDL_GAMEPAD_AXIS_LEFTY": {
+      "negative": "stick-left-up",
+      "positive": "stick-left-down"
+    },
+    "SDL_GAMEPAD_AXIS_RIGHTX": {
+      "negative": "stick-right-left",
+      "positive": "stick-right-right"
+    },
+    "SDL_GAMEPAD_AXIS_RIGHTY": {
+      "negative": "stick-right-up",
+      "positive": "stick-right-down"
+    },
+    "SDL_GAMEPAD_AXIS_LEFT_TRIGGER": "l2",
+    "SDL_GAMEPAD_AXIS_RIGHT_TRIGGER": "r2"
+  },
+  "notes": [
+    "L3/R3 are stick presses: no separate duplicated stick-press glyphs.",
+    "L2/R2 are analog axes in SDL3, not SDL_GamepadButton values.",
+    "MISC1 is not universally quick-menu; use according to actual device.",
+    "Button action meaning is remappable; labels represent physical positions."
+  ]
+}

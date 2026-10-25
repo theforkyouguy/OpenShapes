@@ -1,0 +1,22 @@
+{
+  "type": "conceptual reference; NOT official Steam Input enums",
+  "face_west": "gate",
+  "face_north": "peak",
+  "face_south": "fork",
+  "face_east": "halo",
+  "left_bumper": "l1",
+  "right_bumper": "r1",
+  "left_trigger": "l2",
+  "right_trigger": "r2",
+  "left_stick_click": "l3",
+  "right_stick_click": "r3",
+  "left_grip_upper": "l4",
+  "right_grip_upper": "r4",
+  "left_grip_lower": "l5",
+  "right_grip_lower": "r5",
+  "start": "start",
+  "back": "select",
+  "guide": "home",
+  "quick_access_when_available": "quick-menu",
+  "notes": "Resolve Steam Input action origins at runtime. Different device types and modes report different origins; system/quick access may be OS-reserved."
+}
