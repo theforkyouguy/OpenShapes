@@ -1,3 +1,4 @@
+<img width="1080" height="922" alt="preview" src="https://github.com/user-attachments/assets/d955640c-582b-458f-810b-28082c25885c" />
 # OpenShapes v1.2
 
 A CC0 controller glyph pack featuring **individual, editable SVGs** in
