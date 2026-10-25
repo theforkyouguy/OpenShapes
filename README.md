@@ -40,7 +40,7 @@ especially two-character labels below 16 px, still needs visual testing.
 All geometry is centred within the same 100×100 viewBox.
 
 ## License
-CC0 1.0 Universal. See `LICENSE`. Third-party IP clearance is not guaranteed.
+CC0 1.0 Universal. See `LICENSE`. 
 
 ## Technical references
 - SDL3 gamepad buttons: https://wiki.libsdl.org/SDL3/SDL_GamepadButton
